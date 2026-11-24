@@ -1,0 +1,81 @@
+game,case,seed,g1_real,g2_real,gt_real,g1_rand,g2_rand,gt_rand,leak,expected_leak
+ggm,original PriDeFUL (single tx),0,0,0,9,0,0,9,false,false
+ggm,original PriDeFUL (single tx),1,0,0,9,0,0,9,false,false
+ggm,original PriDeFUL (single tx),2,0,0,9,0,0,9,false,false
+ggm,original PriDeFUL (single tx),3,0,0,9,0,0,9,false,false
+ggm,original PriDeFUL (single tx),4,0,0,9,0,0,9,false,false
+ggm,"original, prior balance b known",0,0,0,8,0,0,9,true,true
+ggm,"original, prior balance b known",1,0,0,8,0,0,9,true,true
+ggm,"original, prior balance b known",2,0,0,8,0,0,9,true,true
+ggm,"original, prior balance b known",3,0,0,8,0,0,9,true,true
+ggm,"original, prior balance b known",4,0,0,8,0,0,9,true,true
+ggm,plan Method A (raw g2^delta),0,0,0,36,0,0,37,true,true
+ggm,plan Method A (raw g2^delta),1,0,0,36,0,0,37,true,true
+ggm,plan Method A (raw g2^delta),2,0,0,36,0,0,37,true,true
+ggm,plan Method A (raw g2^delta),3,0,0,36,0,0,37,true,true
+ggm,plan Method A (raw g2^delta),4,0,0,36,0,0,37,true,true
+ggm,"tagged handles, no epoch binding, x0=0",0,0,0,236,0,0,237,true,true
+ggm,"tagged handles, no epoch binding, x0=0",1,0,0,236,0,0,237,true,true
+ggm,"tagged handles, no epoch binding, x0=0",2,0,0,236,0,0,237,true,true
+ggm,"tagged handles, no epoch binding, x0=0",3,0,0,236,0,0,237,true,true
+ggm,"tagged handles, no epoch binding, x0=0",4,0,0,236,0,0,237,true,true
+ggm,"tagged handles, no epoch binding",0,0,0,248,0,0,248,false,false
+ggm,"tagged handles, no epoch binding",1,0,0,248,0,0,248,false,false
+ggm,"tagged handles, no epoch binding",2,0,0,248,0,0,248,false,false
+ggm,"tagged handles, no epoch binding",3,0,0,248,0,0,248,false,false
+ggm,"tagged handles, no epoch binding",4,0,0,248,0,0,248,false,false
+ggm,tagged handles + epoch binding,0,0,0,409,0,0,409,false,false
+ggm,tagged handles + epoch binding,1,0,0,409,0,0,409,false,false
+ggm,tagged handles + epoch binding,2,0,0,409,0,0,409,false,false
+ggm,tagged handles + epoch binding,3,0,0,409,0,0,409,false,false
+ggm,tagged handles + epoch binding,4,0,0,409,0,0,409,false,false
+ggm,"tagged + epoch binding, x0=0",0,0,0,394,0,0,394,false,false
+ggm,"tagged + epoch binding, x0=0",1,0,0,394,0,0,394,false,false
+ggm,"tagged + epoch binding, x0=0",2,0,0,394,0,0,394,false,false
+ggm,"tagged + epoch binding, x0=0",3,0,0,394,0,0,394,false,false
+ggm,"tagged + epoch binding, x0=0",4,0,0,394,0,0,394,false,false
+ggm,"tagged + epoch binding, tx* alone",0,0,0,198,0,0,198,false,false
+ggm,"tagged + epoch binding, tx* alone",1,0,0,198,0,0,198,false,false
+ggm,"tagged + epoch binding, tx* alone",2,0,0,198,0,0,198,false,false
+ggm,"tagged + epoch binding, tx* alone",3,0,0,198,0,0,198,false,false
+ggm,"tagged + epoch binding, tx* alone",4,0,0,198,0,0,198,false,false
+ggm,"tagged + epoch binding, b known",0,0,0,409,0,0,409,false,false
+ggm,"tagged + epoch binding, b known",1,0,0,409,0,0,409,false,false
+ggm,"tagged + epoch binding, b known",2,0,0,409,0,0,409,false,false
+ggm,"tagged + epoch binding, b known",3,0,0,409,0,0,409,false,false
+ggm,"tagged + epoch binding, b known",4,0,0,409,0,0,409,false,false
+tdddh,"TD-DDH, hidden uniform balance (variant i)",0,19,8,125,19,8,125,false,false
+tdddh,"TD-DDH, hidden uniform balance (variant i)",1,19,8,125,19,8,125,false,false
+tdddh,"TD-DDH, hidden uniform balance (variant i)",2,19,8,125,19,8,125,false,false
+tdddh,"TD-DDH, hidden uniform balance (variant i)",3,19,8,125,19,8,125,false,false
+tdddh,"TD-DDH, hidden uniform balance (variant i)",4,19,8,125,19,8,125,false,false
+tdddh,"TD-DDH, known total, equal sums (variant ii)",0,18,8,117,18,8,117,false,false
+tdddh,"TD-DDH, known total, equal sums (variant ii)",1,18,8,117,18,8,117,false,false
+tdddh,"TD-DDH, known total, equal sums (variant ii)",2,18,8,117,18,8,117,false,false
+tdddh,"TD-DDH, known total, equal sums (variant ii)",3,18,8,117,18,8,117,false,false
+tdddh,"TD-DDH, known total, equal sums (variant ii)",4,18,8,117,18,8,117,false,false
+tdddh,TD-DDH without prior-epoch x-handles,0,17,8,112,17,8,112,false,false
+tdddh,TD-DDH without prior-epoch x-handles,1,17,8,112,17,8,112,false,false
+tdddh,TD-DDH without prior-epoch x-handles,2,17,8,112,17,8,112,false,false
+tdddh,TD-DDH without prior-epoch x-handles,3,17,8,112,17,8,112,false,false
+tdddh,TD-DDH without prior-epoch x-handles,4,17,8,112,17,8,112,false,false
+tdddh,control: x-handles in SAME epoch,0,19,8,124,19,8,125,true,true
+tdddh,control: x-handles in SAME epoch,1,19,8,124,19,8,125,true,true
+tdddh,control: x-handles in SAME epoch,2,19,8,124,19,8,125,true,true
+tdddh,control: x-handles in SAME epoch,3,19,8,124,19,8,125,true,true
+tdddh,control: x-handles in SAME epoch,4,19,8,124,19,8,125,true,true
+tdddh,control: raw g2^delta,0,19,6,82,19,6,84,true,true
+tdddh,control: raw g2^delta,1,19,6,82,19,6,84,true,true
+tdddh,control: raw g2^delta,2,19,6,82,19,6,84,true,true
+tdddh,control: raw g2^delta,3,19,6,82,19,6,84,true,true
+tdddh,control: raw g2^delta,4,19,6,82,19,6,84,true,true
+tdddh,control: E split into x*d and r*d,0,19,8,125,20,8,133,true,true
+tdddh,control: E split into x*d and r*d,1,19,8,125,20,8,133,true,true
+tdddh,control: E split into x*d and r*d,2,19,8,125,20,8,133,true,true
+tdddh,control: E split into x*d and r*d,3,19,8,125,20,8,133,true,true
+tdddh,control: E split into x*d and r*d,4,19,8,125,20,8,133,true,true
+tdddh,control: epoch-start randomness x known,0,15,8,96,16,8,104,true,true
+tdddh,control: epoch-start randomness x known,1,15,8,96,16,8,104,true,true
+tdddh,control: epoch-start randomness x known,2,15,8,96,16,8,104,true,true
+tdddh,control: epoch-start randomness x known,3,15,8,96,16,8,104,true,true
+tdddh,control: epoch-start randomness x known,4,15,8,96,16,8,104,true,true

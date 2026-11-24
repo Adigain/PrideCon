@@ -1,0 +1,43 @@
+backend,design,attack,game,description,trials,successes,rate,ci95_low,ci95_high,decided,expected,as_expected
+exponent,dual-key (first design),A1,payload,payload check with public [s]_2 (3.4.1),100000,100000,1.0,0.9999615854757326,1.0000000000000002,100000,break,true
+exponent,dual-key (first design),A2,payload,"rebuild [s]_2 = [s']_2 - [Delta]_2, then payload check (3.4.3)",100000,100000,1.0,0.9999615854757326,1.0000000000000002,100000,break,true
+exponent,dual-key (first design),A3,payload,"e(D-C*s', g2) + e(C, [Delta]_2) = [pl]_T (3.4.3 item 1)",100000,100000,1.0,0.9999615854757326,1.0000000000000002,100000,break,true
+exponent,Method A,A2,payload,"rebuild [s]_2 = [s']_2 - [Delta]_2, then payload check (3.4.3)",100000,100000,1.0,0.9999615854757326,1.0000000000000002,100000,break,true
+exponent,Method A,A3,payload,"e(D-C*s', g2) + e(C, [Delta]_2) = [pl]_T (3.4.3 item 1)",100000,100000,1.0,0.9999615854757326,1.0000000000000002,100000,break,true
+exponent,Method A,A4,old balance,"oD + E_old - oC*s' = [b]_1, old balance (3.4.3 item 2)",100000,100000,1.0,0.9999615854757326,1.0000000000000002,100000,break,true
+exponent,final (tagged handles),A1,payload,payload check with public [s]_2 (3.4.1),100000,49944,0.49944,0.4963410508732638,0.5025389921510033,0,guess,true
+exponent,final (tagged handles),A2,payload,"rebuild [s]_2 = [s']_2 - [Delta]_2, then payload check (3.4.3)",100000,49850,0.4985,0.4954010989841874,0.5015990162593854,0,guess,true
+exponent,final (tagged handles),A3,payload,"e(D-C*s', g2) + e(C, [Delta]_2) = [pl]_T (3.4.3 item 1)",100000,50176,0.50176,0.49866097900604284,0.5048588857748316,0,guess,true
+exponent,final (tagged handles),A4,old balance,"oD + E_old - oC*s' = [b]_1, old balance (3.4.3 item 2)",100000,50268,0.50268,0.4995809689813347,0.5057788251168154,0,guess,true
+exponent,final (tagged handles),A5,payload,known x strips the mask of E (Remark 1 iv),100000,50006,0.50006,0.496961025134969,0.5031589702552881,0,guess,true
+exponent,"final, trapdoor leaked",A1,payload,payload check with public [s]_2 (3.4.1),100000,49797,0.49797,0.4948711309392493,0.5010690250237193,0,guess,true
+exponent,"final, trapdoor leaked",A2,payload,"rebuild [s]_2 = [s']_2 - [Delta]_2, then payload check (3.4.3)",100000,100000,1.0,0.9999615854757326,1.0000000000000002,100000,break,true
+exponent,"final, trapdoor leaked",A3,payload,"e(D-C*s', g2) + e(C, [Delta]_2) = [pl]_T (3.4.3 item 1)",100000,100000,1.0,0.9999615854757326,1.0000000000000002,100000,break,true
+exponent,"final, trapdoor leaked",A4,old balance,"oD + E_old - oC*s' = [b]_1, old balance (3.4.3 item 2)",100000,50150,0.5015,0.4984009837406145,0.5045989010158125,0,guess,true
+exponent,"final, trapdoor leaked",A5,payload,known x strips the mask of E (Remark 1 iv),100000,50063,0.50063,0.4975310056762493,0.5037289459214501,0,guess,true
+exponent,"final, registered with x = 0",A1,payload,payload check with public [s]_2 (3.4.1),100000,50026,0.50026,0.49716101784871747,0.5033589621757301,0,guess,true
+exponent,"final, registered with x = 0",A2,payload,"rebuild [s]_2 = [s']_2 - [Delta]_2, then payload check (3.4.3)",100000,49745,0.49745,0.49435116567541787,0.5005490302386559,0,guess,true
+exponent,"final, registered with x = 0",A3,payload,"e(D-C*s', g2) + e(C, [Delta]_2) = [pl]_T (3.4.3 item 1)",100000,50116,0.50116,0.49806099119632646,0.5042589196819773,0,guess,true
+exponent,"final, registered with x = 0",A4,old balance,"oD + E_old - oC*s' = [b]_1, old balance (3.4.3 item 2)",100000,49931,0.49931,0.4962110568742802,0.5024089961377634,0,guess,true
+exponent,"final, registered with x = 0",A5,payload,known x strips the mask of E (Remark 1 iv),100000,100000,1.0,0.9999615854757326,1.0000000000000002,100000,break,true
+bls12-381,dual-key (first design),A1,payload,payload check with public [s]_2 (3.4.1),2000,2000,1.0,0.9980828823994873,1.0000000000000002,2000,break,true
+bls12-381,dual-key (first design),A2,payload,"rebuild [s]_2 = [s']_2 - [Delta]_2, then payload check (3.4.3)",2000,2000,1.0,0.9980828823994873,1.0000000000000002,2000,break,true
+bls12-381,dual-key (first design),A3,payload,"e(D-C*s', g2) + e(C, [Delta]_2) = [pl]_T (3.4.3 item 1)",2000,2000,1.0,0.9980828823994873,1.0000000000000002,2000,break,true
+bls12-381,Method A,A2,payload,"rebuild [s]_2 = [s']_2 - [Delta]_2, then payload check (3.4.3)",2000,2000,1.0,0.9980828823994873,1.0000000000000002,2000,break,true
+bls12-381,Method A,A3,payload,"e(D-C*s', g2) + e(C, [Delta]_2) = [pl]_T (3.4.3 item 1)",2000,2000,1.0,0.9980828823994873,1.0000000000000002,2000,break,true
+bls12-381,Method A,A4,old balance,"oD + E_old - oC*s' = [b]_1, old balance (3.4.3 item 2)",2000,2000,1.0,0.9980828823994873,1.0000000000000002,2000,break,true
+bls12-381,final (tagged handles),A1,payload,payload check with public [s]_2 (3.4.1),2000,990,0.495,0.47311822738272624,0.5169009437932789,0,guess,true
+bls12-381,final (tagged handles),A2,payload,"rebuild [s]_2 = [s']_2 - [Delta]_2, then payload check (3.4.3)",2000,947,0.4735,0.4516890633997539,0.4954125438330732,0,guess,true
+bls12-381,final (tagged handles),A3,payload,"e(D-C*s', g2) + e(C, [Delta]_2) = [pl]_T (3.4.3 item 1)",2000,1027,0.5135,0.4915896341052006,0.5353586037195854,0,guess,true
+bls12-381,final (tagged handles),A4,old balance,"oD + E_old - oC*s' = [b]_1, old balance (3.4.3 item 2)",2000,1029,0.5145,0.49258894109413504,0.53635546249545,0,guess,true
+bls12-381,final (tagged handles),A5,payload,known x strips the mask of E (Remark 1 iv),2000,1039,0.5195,0.49758678905194537,0.5413384433616344,0,guess,true
+bls12-381,"final, trapdoor leaked",A1,payload,payload check with public [s]_2 (3.4.1),2000,976,0.488,0.4661368484976979,0.5099091623247144,0,guess,true
+bls12-381,"final, trapdoor leaked",A2,payload,"rebuild [s]_2 = [s']_2 - [Delta]_2, then payload check (3.4.3)",2000,2000,1.0,0.9980828823994873,1.0000000000000002,2000,break,true
+bls12-381,"final, trapdoor leaked",A3,payload,"e(D-C*s', g2) + e(C, [Delta]_2) = [pl]_T (3.4.3 item 1)",2000,2000,1.0,0.9980828823994873,1.0000000000000002,2000,break,true
+bls12-381,"final, trapdoor leaked",A4,old balance,"oD + E_old - oC*s' = [b]_1, old balance (3.4.3 item 2)",2000,1025,0.5125,0.4905904146137529,0.5343616574462342,0,guess,true
+bls12-381,"final, trapdoor leaked",A5,payload,known x strips the mask of E (Remark 1 iv),2000,993,0.4965,0.4746147944983598,0.5183986253248437,0,guess,true
+bls12-381,"final, registered with x = 0",A1,payload,payload check with public [s]_2 (3.4.1),2000,988,0.494,0.4721206252401644,0.5159023801710417,0,guess,true
+bls12-381,"final, registered with x = 0",A2,payload,"rebuild [s]_2 = [s']_2 - [Delta]_2, then payload check (3.4.3)",2000,1048,0.524,0.5020867246621958,0.5458212536929796,0,guess,true
+bls12-381,"final, registered with x = 0",A3,payload,"e(D-C*s', g2) + e(C, [Delta]_2) = [pl]_T (3.4.3 item 1)",2000,987,0.4935,0.4716218569513031,0.5154030655775036,0,guess,true
+bls12-381,"final, registered with x = 0",A4,old balance,"oD + E_old - oC*s' = [b]_1, old balance (3.4.3 item 2)",2000,996,0.498,0.47611155828318563,0.5198961101872164,0,guess,true
+bls12-381,"final, registered with x = 0",A5,payload,known x strips the mask of E (Remark 1 iv),2000,2000,1.0,0.9980828823994873,1.0000000000000002,2000,break,true

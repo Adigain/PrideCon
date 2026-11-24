@@ -1,0 +1,44 @@
+{
+  "chain": {
+    "anvil": "anvil Version: 1.9.0",
+    "block_gas_limit": 100000000,
+    "hardfork": "prague",
+    "rpc": "spawned by btp-client"
+  },
+  "contracts": {
+    "PriDeFULBaseline": {},
+    "PrideConcurrent": {
+      "epochLen": 1000,
+      "kMax": 32,
+      "proof_level": "L0"
+    }
+  },
+  "credits_k": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "experiment": "E4 gas",
+  "gas": "receipt gasUsed (includes the 21000 base fee and calldata)",
+  "git": {
+    "commit": "b48791855d55f84429aa7d122ff96d7606e30379",
+    "dirty": true
+  },
+  "model": "precompile-only cost model of reference/onchain_check.py part 5 (BLS12-381)",
+  "per_transaction_cap_flag": 16777216,
+  "ring_sizes": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "run_id": "seed1",
+  "runtime_seconds": 84.305550735,
+  "seed": 1
+}

@@ -1,0 +1,18 @@
+[package]
+name = "btp-algebra"
+description = "Backend trait (exponent and curve backends) and EIP-2537 codec"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+ark-ff.workspace = true
+ark-ec.workspace = true
+ark-std.workspace = true
+ark-serialize.workspace = true
+ark-bls12-381.workspace = true
+rand.workspace = true
+hex.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true

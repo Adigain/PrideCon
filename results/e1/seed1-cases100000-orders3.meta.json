@@ -1,0 +1,52 @@
+{
+  "all_checks_passed": true,
+  "backend": "exponent, 61-bit field (Exp61)",
+  "case_shape": {
+    "accounts": [
+      3,
+      10
+    ],
+    "compact_prob": [
+      0.0,
+      0.5
+    ],
+    "epochs": [
+      1,
+      5
+    ],
+    "k_max": [
+      1,
+      8
+    ],
+    "max_payload": [
+      1,
+      200
+    ],
+    "mint_prob": 0.2,
+    "ring_size": "1..min(5, accounts)"
+  },
+  "cases": 100000,
+  "experiment": "E1 order-independence",
+  "git": {
+    "commit": "b48791855d55f84429aa7d122ff96d7606e30379",
+    "dirty": true
+  },
+  "orders_per_case": 3,
+  "run_id": "seed1-cases100000-orders3",
+  "runtime_seconds": 10.059914342,
+  "seed": 1,
+  "totals": {
+    "cases": 100000,
+    "compactions": 324350,
+    "credits": 2451796,
+    "divergent_orders": 0,
+    "key_failures": 0,
+    "mints": 911661,
+    "native_mirror_mismatches": 0,
+    "pays": 1050120,
+    "read_failures": 0,
+    "rejected": 0,
+    "runs": 300000,
+    "w_mismatches": 0
+  }
+}

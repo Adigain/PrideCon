@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "accounts": 10000,
+    "capacity": null,
+    "drain_epochs": 50,
+    "epoch_len": 16,
+    "epochs": 200,
+    "k_max": 8,
+    "rate": 50.0,
+    "ring": 8,
+    "zipf_s": 0.0
+  },
+  "e5_model": "20000 rounds per point, N = 64, K_MAX = 8, random order within the block",
+  "experiment": "E2 concurrency benefit (conflict model, SPEC 17)",
+  "gas_capacity_variant": {
+    "block_gas_limit": 100000000,
+    "gas_per_tx": "E4 transact gas at the default ring size (ours: fresh receivers), linearly interpolated",
+    "source": "results/e4/seed1.csv"
+  },
+  "git": {
+    "commit": "b48791855d55f84429aa7d122ff96d7606e30379",
+    "dirty": true
+  },
+  "rows": 525,
+  "run_id": "seed1-seeds5-epochs200",
+  "runtime_seconds": 8.629476398,
+  "seed": 1,
+  "seeds_per_point": 5,
+  "sweeps": "one parameter at a time: accounts, ring, rate, zipf, epoch_len, k_max"
+}
