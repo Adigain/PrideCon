@@ -3,13 +3,13 @@
   "experiment": "E6 attack regression",
   "game": "two candidates (Def. 2); prior balance hidden uniform (payload game), payloads uniform in [0,2^62) (old-balance game); candidates in [0,2^16); one concurrent honest credit; updated key revealed after the epoch",
   "git": {
-    "commit": "b48791855d55f84429aa7d122ff96d7606e30379",
-    "dirty": true
+    "commit": "f151ee17032ff2a9253bbc20fa42c76113ea37b7",
+    "dirty": false
   },
   "rank_cases_as_expected": true,
   "rank_seeds_per_case": 5,
   "run_id": "seed1-exp100000-bls2000",
-  "runtime_seconds": 50.778485595,
+  "runtime_seconds": 50.718485494,
   "seed": 1,
   "trials_per_row": {
     "bls12-381": 2000,

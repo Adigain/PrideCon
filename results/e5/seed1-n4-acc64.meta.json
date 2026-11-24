@@ -15,14 +15,14 @@
   },
   "experiment": "E5 load on a chain",
   "git": {
-    "commit": "b48791855d55f84429aa7d122ff96d7606e30379",
-    "dirty": true
+    "commit": "f151ee17032ff2a9253bbc20fa42c76113ea37b7",
+    "dirty": false
   },
   "ring_size": 4,
   "round": "S senders, each one payment to n random members, all built against the same state, sent into one block; ours starts a fresh epoch per round",
   "rounds": 5,
   "run_id": "seed1-n4-acc64",
-  "runtime_seconds": 183.207955331,
+  "runtime_seconds": 197.619523409,
   "seed": 1,
   "senders_per_block": [
     1,

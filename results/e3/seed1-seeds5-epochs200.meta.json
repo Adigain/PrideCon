@@ -12,12 +12,12 @@
   },
   "experiment": "E3 overlap profile (conflict model, SPEC 17)",
   "git": {
-    "commit": "b48791855d55f84429aa7d122ff96d7606e30379",
-    "dirty": true
+    "commit": "f151ee17032ff2a9253bbc20fa42c76113ea37b7",
+    "dirty": false
   },
   "k": "credits per account per epoch (decoys included), our scheme with no cap",
   "run_id": "seed1-seeds5-epochs200",
-  "runtime_seconds": 1.073640616,
+  "runtime_seconds": 1.13881188,
   "seed": 1,
   "seeds_per_point": 5
 }

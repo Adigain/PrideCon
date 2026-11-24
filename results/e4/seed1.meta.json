@@ -25,8 +25,8 @@
   "experiment": "E4 gas",
   "gas": "receipt gasUsed (includes the 21000 base fee and calldata)",
   "git": {
-    "commit": "b48791855d55f84429aa7d122ff96d7606e30379",
-    "dirty": true
+    "commit": "f151ee17032ff2a9253bbc20fa42c76113ea37b7",
+    "dirty": false
   },
   "model": "precompile-only cost model of reference/onchain_check.py part 5 (BLS12-381)",
   "per_transaction_cap_flag": 16777216,
@@ -39,6 +39,6 @@
     32
   ],
   "run_id": "seed1",
-  "runtime_seconds": 84.305550735,
+  "runtime_seconds": 71.083306211,
   "seed": 1
 }
