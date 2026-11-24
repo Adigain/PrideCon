@@ -89,9 +89,3 @@ the parameters and the git commit. `scripts/plot.py` turns the CSVs into the fig
 
 The client starts its own anvil (Prague hardfork, 100M gas per block). To use one started separately,
 run `scripts/anvil.sh` (or `scripts/anvil.ps1`) and pass `--rpc http://127.0.0.1:8545`.
-
-## Scope
-
-Proof level L0: the contracts run every check of the scheme except the zero-knowledge proofs, whose
-costs are taken from the PriDe CT paper. This and the other simplifications are listed in `SPEC.md`,
-Section 14.
