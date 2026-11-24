@@ -19,8 +19,7 @@ The implementation has four parts:
 
 | File | Contents |
 |---|---|
-| `docs/PriDeFUL_CT_concurrency_plan.pdf` | the theory: diagnosis, flawed designs, the construction and its proofs |
-| `docs/tct_proof.pdf` | the construction and the security proof in compact form |
+| `docs/BTP_Report_Adipta.pdf` | the theory: diagnosis, flawed designs, the construction and its proofs |
 | `SPEC.md` | what the code computes and how it encodes it (byte layouts, hashes, checks, simplifications) |
 | `reference/` | exponent-level Python models the Rust code is checked against |
 
